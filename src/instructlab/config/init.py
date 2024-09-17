@@ -172,6 +172,7 @@ def init(
         cfg.generate.teacher.model_path = model_path
         cfg.serve.model_path = model_path
         cfg.evaluate.model = model_path
+        cfg.teacher.model_path = model_path
         cfg.generate.taxonomy_base = taxonomy_base
         cfg.generate.taxonomy_path = taxonomy_path
         cfg.evaluate.mt_bench_branch.taxonomy_path = taxonomy_path
